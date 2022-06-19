@@ -1,11 +1,12 @@
 import React from 'react'
 import Cart from '../cart/Cart'
+import Header from '../header/Header'
 import Nav from '../navbar2/Nav'
 
 const Home = () => {
   return (
    <>
-   <div url="https://tpc.googlesyndication.com/simgad/9085434444583070644"></div>
+ <Header />
    <Nav/>
    <Cart />
    </>
